@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio — Manech Laguens</title>
+  <meta name="description" content="Portfolio de développeur — projets, parcours, stack technique." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <img class="logo" src="assets/images/avatar.jpg" alt="Manech Laguens">
+      </div>
+      
+      <nav aria-label="Principal">
+        <a href="#about">À propos</a>
+        <a href="#parcours">Parcours</a>
+        <a href="#projets">Projets</a>
+        <a href="#stack">Stack</a>
+        <a class="btn-primary" href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <div class="hero">
+      <div class="hero-card">
+        <h1>Bonjour, je suis <span>Manech Laguens</span></h1>
+        <p class="lead">Actuellement étudiant en troisième année (pré-MSc) à Epitech Montpellier, je suis à la recherche d'une alternance à partir de janvier 2026, en rythme quatre semaines en entreprise / deux semaines à l'école.</p>
+      </div>
+    </div>
+
+    <section id="about">
+      <div class="section-title"><h2>À propos</h2></div>
+      <div class="about">
+        <div class="card">
+          <p>Curieux, impliqué et motivé, j'ai acquis une solide expérience en développement (Python, HTML/CSS, JavaScript) ainsi qu'en gestion de projets. Grâce à mon parcours scolaire, j'ai aussi pu développer de fortes compétences humaines telles que le travail en équipe et la communication interpersonnelle.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="parcours">
+      <div class="section-title"><h2>Parcours</h2><div class="muted">Expériences & formation</div></div>
+      <div class="card timeline">
+        <div class="grid"></div>
+      </div>
+    </section>
+
+    <section id="projets">
+      <div class="section-title"><h2>Projets</h2><div class="muted">Sélection de projets réalisés</div></div>
+      <div id="projects-container" class="grid projects-grid"></div>
+    </section>
+
+    <section id="stack">
+      <div class="section-title"><h2>Stack</h2><div class="muted">Mes compétences techniques</div></div>
+      <div class="grid stack-grid"></div>
+    </section>
+
+    <section id="contact">
+      <div class="section-title"><h2>Contact</h2></div>
+      <div class="about">
+        <div class="card">
+          <div style="font-weight:700;margin-bottom:8px">Me contacter</div>
+          <div class="muted"><a class="muted" href="mailto:manech.laguens@epitech.eu">manech.laguens@epitech.eu</a></div>
+          <div class="muted">Montpellier, France</div>
+          <div style="margin-top:12px;display:flex;gap:8px">
+            <a class="tag" href="assets/pdf/cv_manech_laguens.pdf" download="cv_manech_laguens.pdf">Télécharger CV</a>
+            <a class="tag" href="https://www.linkedin.com/in/manech-laguens-020127293/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a class="tag" href="https://github.com/Manech-Laguens" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="muted">© 2025 Manech Laguens</div>     
+    </footer>
+  </div>
+
+</body>
+</html>
